@@ -1,6 +1,6 @@
 <p align="center"><img src="Resources/logo.png" alt="Deadfire"/></p>
 
-# Pillars of Eternity II - Deadfire - Vertical Dialogue Interface
+# Deadfire - Dialogue Overhaul
 
 This mod adds a modern, vertical dialogue interface to the game. Enabled by default, can be disabled again in the settings (or toggle with F10).
 
