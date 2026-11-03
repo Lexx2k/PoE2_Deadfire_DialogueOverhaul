@@ -1,0 +1,8 @@
+**/bin/
+**/obj/
+tests/*.dll
+tests/*.runtimeconfig.json
+legacy/originals/
+legacy/dist/
+legacy/payload/
+*.zip

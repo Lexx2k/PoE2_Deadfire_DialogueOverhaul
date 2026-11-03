@@ -1,0 +1,131 @@
+{
+  "originalSha256": "3C3749B24078611189078032EECFA617304011D01E846E1AF3385CE0B29C722A",
+  "format": 2,
+  "runtime": "BepInEx 5.4.23.2 / HarmonyX",
+  "files": [
+    {
+      "path": "PillarsOfEternityII_Data/DialogOverhaul/BepInEx/core/0Harmony.dll",
+      "sha256": "1A21CC03424FC82C3DD1346905D16494536B9595AE4162228D99FB7C285C1031"
+    },
+    {
+      "path": "PillarsOfEternityII_Data/DialogOverhaul/BepInEx/core/0Harmony.xml",
+      "sha256": "D1F02FC3ADA3A13DA307DE421225BFE56EBE24064370980979391C4BE021672F"
+    },
+    {
+      "path": "PillarsOfEternityII_Data/DialogOverhaul/BepInEx/core/0Harmony20.dll",
+      "sha256": "D256C5373692A184018F171144712460CED1A6F01562FDE26E742B077B36CBD6"
+    },
+    {
+      "path": "PillarsOfEternityII_Data/DialogOverhaul/BepInEx/core/BepInEx.dll",
+      "sha256": "C65B42034BC8FFB9F0B336E416DC3884E3F99FC5A5A89EB1F2FF7868412322CD"
+    },
+    {
+      "path": "PillarsOfEternityII_Data/DialogOverhaul/BepInEx/core/BepInEx.Harmony.dll",
+      "sha256": "D0739C4A13F369094CB164C205EE4CCA5392BDD7241B9F242EE13F0D4C0B1856"
+    },
+    {
+      "path": "PillarsOfEternityII_Data/DialogOverhaul/BepInEx/core/BepInEx.Harmony.xml",
+      "sha256": "A04FEDF08F7C81F5D01ABA6F2840A7FFCE50B79BBD24587D8DBE69AB73971D29"
+    },
+    {
+      "path": "PillarsOfEternityII_Data/DialogOverhaul/BepInEx/core/BepInEx.Preloader.dll",
+      "sha256": "116F8B879B1B87566F5CE30106FC5D5718DA69D3870315D184A4460379A765C7"
+    },
+    {
+      "path": "PillarsOfEternityII_Data/DialogOverhaul/BepInEx/core/BepInEx.Preloader.xml",
+      "sha256": "5CCAFFCEF1C41292D94931B24F140CA82B47A879E3439E89293285054490EB0A"
+    },
+    {
+      "path": "PillarsOfEternityII_Data/DialogOverhaul/BepInEx/core/BepInEx.xml",
+      "sha256": "C0C7799BBAF1E37398F85F0BA8E02D8136C55A3165DB87063942E3FEDDA0A68C"
+    },
+    {
+      "path": "PillarsOfEternityII_Data/DialogOverhaul/BepInEx/core/HarmonyXInterop.dll",
+      "sha256": "4D6175FA6DFEE743423380F62FB5CC7F1811B469748538BD1B974DED34F3F907"
+    },
+    {
+      "path": "PillarsOfEternityII_Data/DialogOverhaul/BepInEx/core/Mono.Cecil.dll",
+      "sha256": "7AE470288FFF4A402899C254D0A76CEFEF55877F5C54F96E83C797CC5BB6E2F6"
+    },
+    {
+      "path": "PillarsOfEternityII_Data/DialogOverhaul/BepInEx/core/Mono.Cecil.Mdb.dll",
+      "sha256": "5896D1898F616701FFF18F3B2C71E6B844D2390EF9F41E1C5FCCCE8CB27C698E"
+    },
+    {
+      "path": "PillarsOfEternityII_Data/DialogOverhaul/BepInEx/core/Mono.Cecil.Pdb.dll",
+      "sha256": "174DB44A067F58561510AF746F3CAEB032037762C57A31C8D9EE32DB25174984"
+    },
+    {
+      "path": "PillarsOfEternityII_Data/DialogOverhaul/BepInEx/core/Mono.Cecil.Rocks.dll",
+      "sha256": "54AC539FB5DDC8B44C0E9ACD0FCB7324F89D1A072EDF8EBC1B06DD691E3D3927"
+    },
+    {
+      "path": "PillarsOfEternityII_Data/DialogOverhaul/BepInEx/core/MonoMod.RuntimeDetour.dll",
+      "sha256": "40E49BB314391CD7BDDC2644F8553EEBA92C194B940836B103DF16955C464E0C"
+    },
+    {
+      "path": "PillarsOfEternityII_Data/DialogOverhaul/BepInEx/core/MonoMod.RuntimeDetour.xml",
+      "sha256": "54887808960D156550B37D602D08847607AA9E908D039F2765FB0B5E79394AA4"
+    },
+    {
+      "path": "PillarsOfEternityII_Data/DialogOverhaul/BepInEx/core/MonoMod.Utils.dll",
+      "sha256": "9D1495F147AC93C4F81F84538C1A326E8F8A6AEFC78D6289D798F3CE1162C5E9"
+    },
+    {
+      "path": "PillarsOfEternityII_Data/DialogOverhaul/BepInEx/core/MonoMod.Utils.xml",
+      "sha256": "0577B362023A3432D6E8D7934C5EDDC3E08FDBB19E191AF083E341562C5EDE38"
+    },
+    {
+      "path": "PillarsOfEternityII_Data/DialogOverhaul/BepInEx/plugins/DeadfireDialogOverhaul/Deadfire.DialogOverhaul.Runtime.dll",
+      "sha256": "64AE24016BF6627EA8141D056073CE84547E3DE53DEAAD56199A947E40A8D5B6"
+    },
+    {
+      "path": "PillarsOfEternityII_Data/DialogOverhaul/ThirdParty/BepInEx-LICENSE.txt",
+      "sha256": "E6E534EF6F4347B6449407EE046A3D09CB0174C6F688C996AD0BED94B74B3933"
+    },
+    {
+      "path": "PillarsOfEternityII_Data/DialogOverhaul/ThirdParty/Harmony-LICENSE.txt",
+      "sha256": "A5883D0C45EB7E176D3D1631220E7F96E958E37064773D40245AE6DB560BBD6D"
+    },
+    {
+      "path": "PillarsOfEternityII_Data/DialogOverhaul/ThirdParty/HarmonyX-LICENSE.txt",
+      "sha256": "7E54AB4766EF78637A05FB3454663A66DE6BB960DBD4C7088890ED76B0844F36"
+    },
+    {
+      "path": "PillarsOfEternityII_Data/DialogOverhaul/ThirdParty/Mono.Cecil-LICENSE.txt",
+      "sha256": "13D58ECBED676511C0C4C4009BFF107025E50007FF5E7901DC562700EC62509E"
+    },
+    {
+      "path": "PillarsOfEternityII_Data/DialogOverhaul/ThirdParty/MonoMod-LICENSE.txt",
+      "sha256": "0B64833222E3C6A426AD29362D26334619FE02EAF2B89EA9C37805521896C920"
+    },
+    {
+      "path": "PillarsOfEternityII_Data/DialogOverhaul/ThirdParty/NOTICE.md",
+      "sha256": "F737C25A3BD30585524D89947E30388128D1E98C5A69E1FE3A6D5889BD3CC81F"
+    },
+    {
+      "path": "PillarsOfEternityII_Data/DialogOverhaul/ThirdParty/UnityDoorstop-LICENSE.txt",
+      "sha256": "20C17D8B8C48A600800DFD14F95D5CB9FF47066A9641DDEAB48DC54AEC96E331"
+    },
+    {
+      "path": "PillarsOfEternityII_Data/DialogOverhaul/ThirdParty/UnityDoorstop-v4.3.0-source.zip",
+      "sha256": "63A7364D13B82C18E646EFB5504F0B9BDA64650450632F85AC43622F981334AC"
+    },
+    {
+      "path": "PillarsOfEternityII_Data/Managed/Deadfire.DialogOverhaul.dll",
+      "sha256": "3E09D63E7AFF0A0F4B6868944A1C3D63B6BA52BCBA22F59CAF201D93CE2431B6"
+    },
+    {
+      "path": "source/loader/winhttp.dll",
+      "sha256": "D3B62F4C9C3E2196EF82603C52D6B98C043A0D6C125C081FD33D7CA3798B41B8"
+    },
+    {
+      "path": "source/loader/doorstop_config.ini",
+      "sha256": "4FCCDDACEFF14A3F41FB6D72DEAA6D51B1BB8570594B7EBD67BB855DE2BFC16A"
+    },
+    {
+      "path": "source/loader/.doorstop_version",
+      "sha256": "2744735FEE2EE237E29F592F88AB669DC8D478FCA31E6DA4CAF9A4A1B3ABB7F1"
+    }
+  ]
+}
