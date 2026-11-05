@@ -1,7 +1,5 @@
 {
-  "originalSha256": "3C3749B24078611189078032EECFA617304011D01E846E1AF3385CE0B29C722A",
-  "format": 2,
-  "runtime": "BepInEx 5.4.23.2 / HarmonyX",
+  "format": 3,
   "files": [
     {
       "path": "PillarsOfEternityII_Data/DialogOverhaul/BepInEx/core/0Harmony.dll",
@@ -38,6 +36,10 @@
     {
       "path": "PillarsOfEternityII_Data/DialogOverhaul/BepInEx/core/BepInEx.xml",
       "sha256": "C0C7799BBAF1E37398F85F0BA8E02D8136C55A3165DB87063942E3FEDDA0A68C"
+    },
+    {
+      "path": "PillarsOfEternityII_Data/DialogOverhaul/BepInEx/core/Deadfire.DialogOverhaul.Bootstrap.dll",
+      "sha256": "93CED81EF6CA145CEF74E893C350A9A98D7B344CCDD2CC9F28550479B940EDDF"
     },
     {
       "path": "PillarsOfEternityII_Data/DialogOverhaul/BepInEx/core/HarmonyXInterop.dll",
@@ -116,16 +118,21 @@
       "sha256": "3E09D63E7AFF0A0F4B6868944A1C3D63B6BA52BCBA22F59CAF201D93CE2431B6"
     },
     {
-      "path": "source/loader/winhttp.dll",
+      "path": "source/loader/version.dll",
       "sha256": "D3B62F4C9C3E2196EF82603C52D6B98C043A0D6C125C081FD33D7CA3798B41B8"
     },
     {
       "path": "source/loader/doorstop_config.ini",
-      "sha256": "4FCCDDACEFF14A3F41FB6D72DEAA6D51B1BB8570594B7EBD67BB855DE2BFC16A"
+      "sha256": "0D1C16598813194D4A0CF075549238364BABFAD116AFC11DA65D3219E2F473C1"
     },
     {
       "path": "source/loader/.doorstop_version",
       "sha256": "2744735FEE2EE237E29F592F88AB669DC8D478FCA31E6DA4CAF9A4A1B3ABB7F1"
     }
-  ]
+  ],
+  "knownGameAssemblies": {
+    "beta": "D35BBA8DC6B6F2579FAD9ECAE076ACA644AFDB68C4374C4D655938192EA912AF",
+    "retail": "3C3749B24078611189078032EECFA617304011D01E846E1AF3385CE0B29C722A"
+  },
+  "runtime": "BepInEx 5.4.23.2 / HarmonyX"
 }

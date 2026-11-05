@@ -26,3 +26,5 @@ Upstream references:
 
 Original release ZIP SHA256: `F752CE4E838F4C305B9DA1404B6745F2CFF23B8BFD494F79F0C84D0A01F59B46`.
 The manifest records individual redistributed payload hashes. Bootstrap configuration is the only modified upstream loader file (entry-point path relocated). Game artwork/fonts/assemblies are read from the installed game rather than included as source dependencies.
+
+2026-11-05 update: Doorstop now uses source/loader/version.dll and invokes Deadfire.DialogOverhaul.Bootstrap.dll first. That shared .NET 2-compatible bootstrap selects the retail or beta Unity entry-point module before delegating to BepInEx.Preloader.dll. See GAME_VERSION_COMPATIBILITY.md.

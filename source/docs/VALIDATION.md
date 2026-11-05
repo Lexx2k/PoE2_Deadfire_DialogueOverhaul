@@ -16,3 +16,5 @@ Pending until a real Deadfire launch with the runtime loader:
 - Compatibility with other installed mods.
 
 An isolated .NET test is not proof of compatibility with the game's Mono runtime. The legacy build's prior visual checks do not establish runtime-loader startup compatibility.
+
+2026-11-05: beta Unity 2019.4.41f1 startup and all six runtime hooks are confirmed in the live log; the user confirmed both the menu toggle and vertical interface. Eight additional bootstrap configuration tests pass (83 checks total). The new automatic entry-point selection handles retail and beta settings; a fresh retail branch-switch launch remains untested. See GAME_VERSION_COMPATIBILITY.md.

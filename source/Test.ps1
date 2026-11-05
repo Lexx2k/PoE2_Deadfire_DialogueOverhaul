@@ -24,6 +24,7 @@ if($LASTEXITCODE -ne 0){throw 'Formatting/layout tests failed'}
 $runtime=Runner 'RuntimeTests' @((Join-Path $PSScriptRoot 'tests\RuntimeTests.cs'),$common)
 & dotnet $runtime $root $GameRoot
 if($LASTEXITCODE -ne 0){throw 'Runtime transpiler tests failed'}
+& (Join-Path $PSScriptRoot 'tests\BootstrapTests.ps1') -PackageRoot $root
 $manifest=Get-Content -LiteralPath (Join-Path $PSScriptRoot 'runtime-manifest.json') -Raw | ConvertFrom-Json
 foreach($file in $manifest.files){
  if((Get-FileHash -LiteralPath (Join-Path $root $file.path)).Hash -ne $file.sha256){throw ('Payload hash mismatch: '+$file.path)}
@@ -34,3 +35,4 @@ if($config -notmatch '(?im)^target_assembly=(.+)$'){throw 'Bootstrap entry point
 $entry=$Matches[1].Trim()
 if(-not(Test-Path -LiteralPath (Join-Path $root $entry))){throw 'Manual-copy bootstrap target does not exist in the data payload'}
 Write-Host 'Payload hashes and manual-copy bootstrap target verified; no replacement game assembly.'
+
