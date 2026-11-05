@@ -2,7 +2,7 @@
 
 # Deadfire - Dialogue Overhaul
 
-This mod adds a modern, vertical dialogue interface to the game. Enabled by default, can be disabled again in the settings (or toggle with F10).
+This mod adds a modern, vertical dialogue interface to the game. Makes reading long dialogue scenes more comfortable, also increases the font size slightly. Enabled by default, can be disabled again in the settings (or toggle with F10).
 
 ## Installation
 
