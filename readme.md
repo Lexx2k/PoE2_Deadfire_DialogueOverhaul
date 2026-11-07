@@ -2,11 +2,11 @@
 
 # Deadfire - Dialogue Overhaul
 
-This mod adds a modern, vertical dialogue interface to the game. Enabled by default, can be disabled again in the settings (or toggle with F10).
+This mod adds a modern, vertical dialogue interface to the game. Makes reading long dialogue scenes more comfortable, also increases the font size slightly. Enabled by default, can be disabled again in the settings (or toggle with F10).
 
 ## Installation
 
-Copy the included `PillarsOfEternityII_Data` folder into the game's `Pillars of Eternity II` folder, beside `PillarsOfEternityII.exe`, merging folders and replacing files when prompted.
+Download the <a href="https://github.com/Lexx2k/PoE2_Deadfire_DialogueOverhaul/releases">latest release</a>, then copy the included `PillarsOfEternityII_Data` folder into the game's `Pillars of Eternity II` folder, beside `PillarsOfEternityII.exe`, merging folders and replacing files when prompted.
 
 For Steam, this is usually `steamapps/common/Pillars of Eternity II`.
 
